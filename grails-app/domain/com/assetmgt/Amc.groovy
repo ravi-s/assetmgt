@@ -9,14 +9,14 @@ class Amc {
 	String name
 	String email
 	String website
-	String address
+	//String address
 	Date dateCreated
 	Date lastUpdated
     static constraints = {
 		name blank:false
 		email email:true, nullable:true
 		website nullable:true, url:true
-		address nullable:true, maxSize: 500
+		//address nullable:true, maxSize: 500
 		
     }
 }
